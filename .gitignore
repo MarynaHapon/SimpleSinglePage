@@ -4,6 +4,11 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+.idea
+.gulps
+node_modules
+materials
+
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/

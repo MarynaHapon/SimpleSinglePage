@@ -1,0 +1,15 @@
+{
+  "navPages": {
+    "About" : "index.html",
+    "Download" : "index.html",
+    "Workflow" : "index.html",
+    "Support": "index.html",
+    "User Stories ": "index.html",
+    "Contact": "index.html"
+  },
+
+  "logo": {
+    "link": "index.html",
+    "img": "static/img/general/logo.png"
+  }
+}
