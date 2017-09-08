@@ -1,2 +1,18 @@
 .wrapper
-    .inner
+    .about
+        .inner
+            p.about-chapter= about.chapter
+            h2.about-title= about.title
+
+            .about-list
+                .about-item-group
+                    +AboutItem(about.list.item1.title, about.list.item1.text)(class= "about-item1")
+                    +AboutItem(about.list.item4.title, about.list.item4.text)(class= "about-item4")
+                .about-item-group
+                    +AboutItem(about.list.item2.title, about.list.item2.text)(class= "about-item2")
+                    +AboutItem(about.list.item5.title, about.list.item5.text)(class= "about-item5")
+                .about-item-group
+                    +AboutItem(about.list.item3.title, about.list.item3.text)(class= "about-item3")
+                    +AboutItem(about.list.item6.title, about.list.item6.text)(class= "about-item6")
+
+
