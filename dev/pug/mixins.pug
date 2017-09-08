@@ -5,8 +5,9 @@ mixin icon(name,mod)
 
 
 mixin AboutItem(title, text)
-	.about-item(class!=attributes.class)
-		h4.about-item-title= title
-		p.about-item-text= text
+	div(class!=attributes.class)
+		.about-item
+			h4.about-item-title= title
+			p.about-item-text= text
 
 
