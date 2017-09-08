@@ -1,6 +1,9 @@
 {
-  "content": {
-    " " : " ",
-    " " : " "
-  }
+  "tell" : {
+    "title": "call us at",
+    "number": "+84 985 234 812"
+  },
+
+  "email" : "support@comvanphongvip.vn",
+  "address": "168 Nguyen Xien, Thanh Xuan, Ha Noi"
 }
