@@ -2,7 +2,9 @@ header
     background url('../img/general/header-bg2.png')
     //linear-gradient(45deg, #f73d4b, $dark-orange)
     //background-blend-mode  darken, multiply
-    background-size cover
+    //background-size cover
+    background-repeat no-repeat
+    background-position center top
     color $white
 
 
@@ -21,11 +23,24 @@ header
 .header-inner
     display flex
     justify-content space-between
-    padding 240px 0 0 0
+    align-items center
+    padding 125px 0 100px
 
 
 .header-text-wrap
     max-width 570px
+
+
+.header-img-wrap
+    position relative
+    size(297px, 588px)
+    background url('../../../static/img/general/screen.png') no-repeat center 205px
+
+
+.header-screen
+    position(absolute,,,245px,110px)
+    font-size 18px
+    letter-spacing 0.01em
 
 
 .btn-header
