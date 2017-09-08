@@ -1,4 +1,18 @@
 .wrapper
-    .inner
+    header
+        .inner
 
-        include ../components/navigation
+            include ../components/navigation
+
+            .header-inner
+
+                .header-text-wrap
+                    h1.header-title= header.title
+                    p.header-text= header.text
+                    a(href= header.btn.link).btn.btn-header= header.btn.title
+
+
+                .header-img-wrap
+                    img(src= header.img.src, alt= header.img.alt).header-img
+                    p.header-screen= header.screen.text
+                    
