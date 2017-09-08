@@ -3,3 +3,10 @@ mixin icon(name,mod)
 	svg(class="icon icon-" + name + ' ' + mod)
 		use(xlink:href="/static/img/svg/symbol/sprite.svg#" + name)
 
+
+mixin AboutItem(title, text)
+	.about-item(class!=attributes.class)
+		h4.about-item-title= title
+		p.about-item-text= text
+
+
