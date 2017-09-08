@@ -1,0 +1,43 @@
+{
+  "chapter": "How it works",
+  "title": "Lorem ipsum is simply",
+
+  "list": {
+    "item1": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    },
+
+    "item2": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    },
+
+    "item3": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    },
+
+    "item4": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    },
+
+    "item5": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    },
+
+    "item6": {
+      "title": "Lorem ipsum is simply dummy",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry ",
+      "img": ""
+    }
+
+  }
+}
