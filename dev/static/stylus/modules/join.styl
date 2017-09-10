@@ -51,11 +51,15 @@ input[type='email']
     background-color $white
     color $dark-orange
     border-radius 5px
-    box-shadow 0px 0px 3px 3px $dark-orange
+    box-shadow 0px 0px 40px 0px $bittersweet
     border 2px solid $white
+    transition .3s
 
     &:hover
+        background-color rgba(0,0,0,0)
+        color $white
         cursor pointer
-
+        box-shadow 0
+        
     &:active
         box-shadow 0
