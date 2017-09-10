@@ -4,7 +4,55 @@
 
 
 
-    // about
+    // header
+@media screen and (max-width: 650px)
+    .header-inner
+        justify-content center
+
+    .header-img-wrap
+        margin 0 auto
+
+    .header-text-wrap
+        position absolute
+        margin 0 auto
+        padding 0 20px
+        width 297px
+        z-index 1000
+
+    .header-title
+        font-size 28px
+        text-align center
+
+    .header-text
+        margin 30px 0 10px
+
+    .btn-header
+        margin-left 6px
+        width 100%
+
+    .header-screen
+        display none
+
+
+@media screen and (min-width: 650px)
+    .header-inner
+        justify-content space-between
+
+    .header-text-wrap
+        margin-right 20px
+
+    .header-text
+        margin 60px 0 100px
+
+    .header-title
+        font-size 38px
+
+    .header-img-wrap
+      background url('../../../static/img/general/screen.png') no-repeat center 205px
+
+
+
+// about
 @media screen and (max-width: 600px)
     .about-list
         flex-direction column
