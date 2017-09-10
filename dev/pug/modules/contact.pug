@@ -1,0 +1,15 @@
+.wrapper
+    .contact
+        .inner
+
+            .contact-list
+                .contact-item
+                    .contact-tell
+                        p= contact.tell.title + ':' + ' '
+                            a(href="tel:+84985234812")= contact.tell.number
+
+                .contact-item
+                    p.contact-email= contact.email
+
+                .contact-item
+                    p.contact-address= contact.address
