@@ -1,11 +1,11 @@
 {
   "navPages": {
-    "About" : "index.html",
+    "About" : "#about",
     "Download" : "index.html",
     "Workflow" : "index.html",
     "Support": "index.html",
     "User Stories ": "index.html",
-    "Contact": "index.html"
+    "Contact": "#contact"
   },
 
   "logo": {
