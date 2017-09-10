@@ -1,5 +1,5 @@
 # Project-Start
-
+[Link](https://marynahapon.github.io/SimpleSinglePage/build/index.html)
 
 ## Technologies
 
@@ -21,7 +21,8 @@ $ npm install -g gulp
 ### Use
 
 ```bash
-$ git clone https://github.com/MarynaHapon/Cuda
+clone
+
 $ npm install
 $ gulp
 ```
@@ -57,8 +58,12 @@ $ gulp
 │   │   └── /js/                    # JS files.
 │   └── *.html                      # Rendered and compiled HTMLs from Pug.
 ├── /data/                          # JSON files with site content.
-│   └── content.json                  # JSON file with site content.
-│   └── navigation.json               # JSON file with navigation content.
+│   └── about.json                    # JSON file with 'about' content.
+│   └── contact.json                  # JSON file with 'contact' content.
+│   └── footer.json                   # JSON file with 'footer' content.
+│   └── header.json                   # JSON file with 'header' content.
+│   └── join.json                     # JSON file with 'join' content.
+│   └── navigation.json               # JSON file with 'navigation' content.
 ├── /dev/                           # Dev folder.
 │   ├── /pug/                       # Pug folder.
 │   │   ├── /components/            # Pug folder.
