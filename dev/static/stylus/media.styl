@@ -4,9 +4,35 @@
 
 
 
+    // about
+@media screen and (max-width: 600px)
+    .about-list
+        flex-direction column
+        align-items center
+
+    .about-item-group
+        flex-direction column
 
 
-  // join
+@media screen and (min-width: 600px) and (max-width: 900px)
+    .about-list
+        flex-direction column
+        align-items center
+
+    .about-item-group
+        flex-direction row
+
+
+@media screen and (min-width: 900px)
+  .about-list
+      flex-direction row
+
+  .about-item-group
+      flex-direction column
+
+
+
+    // join
 @media screen and (min-width: 841px)
     .join-form
         justify-content space-between
@@ -41,7 +67,7 @@
         width 340px
 
 
-    
+
     // footer
 @media screen and (max-width: 1180px)
     footer
