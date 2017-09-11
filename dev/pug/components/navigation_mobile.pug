@@ -1,0 +1,10 @@
+div.nav-mobile
+    input(type='checkbox', id='toggle')
+    label(for='toggle', id='toggle-btn')
+
+    .nav-icon
+    nav(data-state='close').nav-mobile-list
+        ul
+            each link, title in nav.navPages
+                li
+                    a(href= link)= title
